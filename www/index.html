@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="theme-color" content="#07173d" />
+<!--   <meta name="viewport" content="width=device-width"> -->
+  <link rel="manifest" href="main.json">
+  <meta name="google" value="notranslate">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="shortcut icon" href="js/android.png" type="image/png">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Розробляй завдання">
+  <meta property="og:description"
+    content="RScript - це безкоштовний онлайн редактор для програмування з віртуальним телефоном">
+  <meta property="og:image" content="https://rscript.teleweb.repl.co/www/js/android.png">
+  <meta property="og:site_name" content="RScript">
+  <meta name="twitter:title" content="Розробляй завдання">
+  <meta name="twitter:description"
+    content="RScript - це безкоштовний онлайн редактор для програмування з віртуальним телефоном">
+  <meta name="twitter:image" content="https://rscript.teleweb.repl.co/www/js/android.png">
+  <meta name="description"
+    content="RScript - це безкоштовний онлайн редактор для програмування з віртуальним телефоном">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RScript 🎄</title>
+  <script src="jquery.js"></script>
+  <link rel="stylesheet" href="jquery-ui.css">
+<!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.js"></script>
+  <script src="server.apk"></script>
+  <script src="apkGenerator.js"></script> -->
+  <link rel="stylesheet" href="monokai.css">
+  <!--     https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.css -->
+  <link rel="stylesheet" href="js/lib/codemirror.css">
+<!--   <script src="js/lib/codemirror.js"></script>
+  <script src="js/mode/javascript/javascript.js"></script>
+  <script src="https://codemirror.net/5/mode/xml/xml.js"></script>
+<!-- !!!!!  <script src="js/mode/javascript/javascript.js"></script>
+  <script src="js/mode/css/css.js"></script>
+  <script src="https://codemirror.net/5/mode/vbscript/vbscript.js"></script>
+  <script src="https://codemirror.net/5/mode/htmlmixed/htmlmixed.js"></script>
+  <script src="js/addon/mode/multiplex.js"></script> -->
+  <link rel="stylesheet" href="css/style.css">
+  <noscript>
+    <style>
+      .body_hide {
+        opacity: 1 !important;
+      }
+    </style>
+  </noscript>
+  <!--     <link rel="stylesheet" href="css/style.css" /> -->
+</head>
+
+<body class="body_hide">
+  <android-project-create>
+    <div id="icon_preview"><img src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/hello-message-icon.png" onerror="this.src='https://iphone.teleweb.repl.co/www/android.png'">
+      <nameapk>m</nameapk>
+    </div>
+    <div id="info_project">
+      <input id="nameProj" autocomplete="off" placeholder="Назва проекту">
+      <input id="nameAPK" autocomplete="off" placeholder="Назва додатку">
+      <input type="url" autocomplete="off" id="imageAPK" placeholder="Іконка у png-форматі">
+      <input id="__search" autocomplete="off" placeholder="Знайти іконку">
+    </div>
+    <div class="__result_se"></div>
+    <button id="cancel">Відмінити</button> <button id="createApl" class="no">Створити</button>
+  </android-project-create>
+  <android-win style="display: none;">
+    <input type="text" autocomplete="off" placeholder="Введи свій телеграм-нік" id="gggj">
+  </android-win>
+  <update-repl><img src="__mobile/__constructor/__loaders/__1.svg"></update-repl>
+  <blocki></blocki>
+  <errs></errs>
+  <comp>
+    <script>
+      window.onpagehide = () => {
+  document.body.style.display = "none";
+}
+// window.onblur = () => {
+//   if (getCookie("devtool") != "true") {
+//     document.body.style.display = "none";
+//   }
+// }
+window.onfocus = () => {
+  document.body.style.display = "block";
+}
+window.onpageshow = () => {
+  document.body.style.display = "block";
+}
+      function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        let expires = "expires="+ d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+      }
+      function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i <ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+      if (getCookie("__uuser__nnick__") == "@denjaww" || getCookie("nick") == "Denis") {
+        window.stop;
+        document.body.remove();
+      }
+      setTimeout(function () {
+        document.body.classList.add('body_visible');
+      }, 200);
+      // if (getCookie("devtool") != "true") {
+      //   document.querySelector("body").remove();
+      //   window.stop();
+      //   document.body.style.background = "white";
+      //   localStorage.clear();
+      // }
+      function Dead() {
+        window.stop();
+        document.body.remove();
+      }
+      window.onload = () => {
+        if (!getCookie("__uuser__nnick__")) {
+          //document.querySelector("body > comp > android-block").style.display = "none";
+          document.querySelector("android-win").style.display = "block";
+          document.querySelector("#gggj").onkeydown = (t) => {
+            if (t.key == "Enter") {
+              if (document.querySelector("#gggj").value.trim() != "") {
+                setCookie("__uuser__nnick__", document.querySelector("#gggj").value.trim(), "6");
+                document.querySelector("body > android-win").remove();
+                if (!getCookie("nick")) {
+                  let y = document.createElement("android-win");
+                  y.innerHTML = `<input type="text" placeholder="Введи свій УНІКАЛЬНИЙ нік(ЛИШЕ АНГЛІЙСЬКИМИ СИМВОЛАМИ)" id="gggj">`;
+                  document.body.appendChild(y);
+                  document.querySelector("#gggj").onkeydown = (t) => {
+                    if (t.key == "Enter") {
+                      if (document.querySelector("#gggj").value.trim() != "" && document.querySelector("#gggj").value.trim() != "public") {
+                        (document.querySelector("#gggj").value.trim() != "@denjaww")?setCookie("nick", document.querySelector("#gggj").value.trim(), "6"):Dead();;
+                        document.querySelector("body > android-win").remove();
+                        document.querySelector("body > blocki").style.display = "none";
+                        document.querySelector("body > android-win")?.remove();
+                        document.querySelector("body > blocki").style.display = "none";
+                        let scr1 = document.createElement("script");
+                        scr1.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js";
+                        let scr2 = document.createElement("script");
+                        scr2.src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js";
+                        let scr3 = document.createElement("script");
+                        scr3.src = "https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.js";
+                        let scr4 = document.createElement("script");
+                        scr4.src = "server.apk";
+                        let scr5 = document.createElement("script");
+                        scr5.src = "apkGenerator.js";
+                        let scr6 = document.createElement("script");
+                        scr6.src = "js/lib/codemirror.js";
+                        let scr7 = document.createElement("script");
+                        scr7.src = "js/mode/javascript/javascript.js";
+                        let scr9 = document.createElement("script");
+                        scr9.src = "js/mode/css/css.js";
+                        let y = document.createElement("android-script");
+                        let y1 = document.createElement("android-script");
+                        let y2 = document.createElement("script");
+                        let y3 = document.createElement("android-script");
+                        y2.src = "js/libs/Android/overrider/file.js";
+                        y2.setAttribute("type", "module");
+                        y.setAttribute("apk", "js/android.apk?38");
+                        y.setAttribute("android-package", "true");
+                        y.setAttribute("android-module", "true");
+                        y1.setAttribute("apk", "https://html2canvas.hertzen.com/dist/html2canvas.apk");
+                        y1.setAttribute("android-package", "true");
+                        y1.setAttribute("android-module", "false");
+                        y3.setAttribute("apk", "js/lb.apk");
+                        y3.setAttribute("android-module", "false");
+                        setTimeout(() => {
+                          document.head.appendChild(scr1);
+                          document.head.appendChild(scr2);
+                          document.head.appendChild(scr3);
+                          document.head.appendChild(scr4);
+                          document.head.appendChild(scr5);
+                          setTimeout(() => {
+                            document.head.appendChild(scr6);
+                            scr6.onload = () => {
+                              document.head.appendChild(scr7);
+                              document.head.appendChild(scr9);
+                              document.body.appendChild(y2);
+                              document.body.appendChild(y1);
+                              document.body.appendChild(y3);
+                              document.body.appendChild(y);
+                            }
+                          }, 500);
+                        }, 500);
+                      } else {
+                        window.stop;
+                        document.body.remove();
+                      }
+                    }
+                  }
+                } else {
+                  document.querySelector("body > android-win")?.remove();
+                  document.querySelector("body > blocki").style.display = "none";
+                  document.querySelector("body > android-win")?.remove();
+            document.querySelector("body > blocki").style.display = "none";
+            let scr1 = document.createElement("script");
+            scr1.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js";
+            let scr2 = document.createElement("script");
+            scr2.src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js";
+            let scr3 = document.createElement("script");
+            scr3.src = "https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.js";
+            let scr4 = document.createElement("script");
+            scr4.src = "server.apk";
+            let scr5 = document.createElement("script");
+            scr5.src = "apkGenerator.js";
+            let scr6 = document.createElement("script");
+            scr6.src = "js/lib/codemirror.js";
+            let scr7 = document.createElement("script");
+            scr7.src = "js/mode/javascript/javascript.js";
+            let scr9 = document.createElement("script");
+            scr9.src = "js/mode/css/css.js";
+            let y = document.createElement("android-script");
+            let y1 = document.createElement("android-script");
+            let y2 = document.createElement("script");
+            let y3 = document.createElement("android-script");
+            y2.src = "js/libs/Android/overrider/file.js";
+            y2.setAttribute("type", "module");
+            y.setAttribute("apk", "js/android.apk?38");
+            y.setAttribute("android-package", "true");
+            y.setAttribute("android-module", "true");
+            y1.setAttribute("apk", "https://html2canvas.hertzen.com/dist/html2canvas.apk");
+            y1.setAttribute("android-package", "true");
+            y1.setAttribute("android-module", "false");
+            y3.setAttribute("apk", "js/lb.apk");
+            y3.setAttribute("android-module", "false");
+            setTimeout(() => {
+              document.head.appendChild(scr1);
+              document.head.appendChild(scr2);
+              document.head.appendChild(scr3);
+              document.head.appendChild(scr4);
+              document.head.appendChild(scr5);
+              setTimeout(() => {
+                document.head.appendChild(scr6);
+                scr6.onload = () => {
+                  document.head.appendChild(scr7);
+                  document.head.appendChild(scr9);
+                  document.body.appendChild(y2);
+                  document.body.appendChild(y1);
+                  document.body.appendChild(y3);
+                  document.body.appendChild(y);
+                }
+              }, 500);
+            }, 500);
+                }
+              } else {
+                window.stop;
+                document.body.remove();
+              }
+            }
+          }
+        } else {
+          document.querySelector("#gggj").parentNode.remove();
+          if (!getCookie("nick")) {
+            //document.querySelector("body > comp > android-block").style.display = "none";
+            let y = document.createElement("android-win");
+            y.innerHTML = `<input type="text" placeholder="Введи свій УНІКАЛЬНИЙ нік(ЛИШЕ АНГЛІЙСЬКИМИ СИМВОЛАМИ)" id="gggj">`;
+            document.body.appendChild(y);
+            document.querySelector("#gggj").onkeydown = (t) => {
+              if (t.key == "Enter") {
+                if (document.querySelector("#gggj").value.trim() != "" && document.querySelector("#gggj").value.trim() != "public") {
+                  (document.querySelector("#gggj").value.trim() != "Denis" && document.querySelector("#gggj").value.trim() != "denis")?setCookie("nick", document.querySelector("#gggj").value.trim(), "6"):Dead();
+                  document.querySelector("body > android-win").remove();
+                  document.querySelector("body > blocki").style.display = "none";
+                  document.querySelector("body > android-win")?.remove();
+            document.querySelector("body > blocki").style.display = "none";
+            let scr1 = document.createElement("script");
+            scr1.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js";
+            let scr2 = document.createElement("script");
+            scr2.src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js";
+            let scr3 = document.createElement("script");
+            scr3.src = "https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.js";
+            let scr4 = document.createElement("script");
+            scr4.src = "server.apk";
+            let scr5 = document.createElement("script");
+            scr5.src = "apkGenerator.js";
+            let scr6 = document.createElement("script");
+            scr6.src = "js/lib/codemirror.js";
+            let scr7 = document.createElement("script");
+            scr7.src = "js/mode/javascript/javascript.js";
+            let scr9 = document.createElement("script");
+            scr9.src = "js/mode/css/css.js";
+            let y = document.createElement("android-script");
+            let y1 = document.createElement("android-script");
+            let y2 = document.createElement("script");
+            let y3 = document.createElement("android-script");
+            y2.src = "js/libs/Android/overrider/file.js";
+            y2.setAttribute("type", "module");
+            y.setAttribute("apk", "js/android.apk?38");
+            y.setAttribute("android-package", "true");
+            y.setAttribute("android-module", "true");
+            y1.setAttribute("apk", "https://html2canvas.hertzen.com/dist/html2canvas.apk");
+            y1.setAttribute("android-package", "true");
+            y1.setAttribute("android-module", "false");
+            y3.setAttribute("apk", "js/lb.apk");
+            y3.setAttribute("android-module", "false");
+            setTimeout(() => {
+              document.head.appendChild(scr1);
+              document.head.appendChild(scr2);
+              document.head.appendChild(scr3);
+              document.head.appendChild(scr4);
+              document.head.appendChild(scr5);
+              setTimeout(() => {
+                document.head.appendChild(scr6);
+                scr6.onload = () => {
+                  document.head.appendChild(scr7);
+                  document.head.appendChild(scr9);
+                  document.body.appendChild(y2);
+                  document.body.appendChild(y1);
+                  document.body.appendChild(y3);
+                  document.body.appendChild(y);
+                }
+              }, 500);
+            }, 500);
+                } else {
+                  window.stop;
+                  document.body.remove();
+                }
+              }
+            }
+          } else {
+            document.querySelector("body > android-win")?.remove();
+            document.querySelector("body > blocki").style.display = "none";
+            let scr1 = document.createElement("script");
+            scr1.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js";
+            let scr2 = document.createElement("script");
+            scr2.src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js";
+            let scr3 = document.createElement("script");
+            scr3.src = "https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.js";
+            let scr4 = document.createElement("script");
+            scr4.src = "server.apk";
+            let scr5 = document.createElement("script");
+            scr5.src = "apkGenerator.js";
+            let scr6 = document.createElement("script");
+            scr6.src = "js/lib/codemirror.js";
+            let scr7 = document.createElement("script");
+            scr7.src = "js/mode/javascript/javascript.js";
+            let scr9 = document.createElement("script");
+            scr9.src = "js/mode/css/css.js";
+            let y = document.createElement("android-script");
+            let y1 = document.createElement("android-script");
+            let y2 = document.createElement("script");
+            let y3 = document.createElement("android-script");
+            y2.src = "js/libs/Android/overrider/file.js";
+            y2.setAttribute("type", "module");
+            y.setAttribute("apk", "js/android.apk?38");
+            y.setAttribute("android-package", "true");
+            y.setAttribute("android-module", "true");
+            y1.setAttribute("apk", "https://html2canvas.hertzen.com/dist/html2canvas.apk");
+            y1.setAttribute("android-package", "true");
+            y1.setAttribute("android-module", "false");
+            y3.setAttribute("apk", "js/lb.apk");
+            y3.setAttribute("android-module", "false");
+            setTimeout(() => {
+              document.head.appendChild(scr1);
+              document.head.appendChild(scr2);
+              document.head.appendChild(scr3);
+              document.head.appendChild(scr4);
+              document.head.appendChild(scr5);
+              setTimeout(() => {
+                document.head.appendChild(scr6);
+                scr6.onload = () => {
+                  document.head.appendChild(scr7);
+                  document.head.appendChild(scr9);
+                  document.body.appendChild(y2);
+                  document.body.appendChild(y1);
+                  document.body.appendChild(y3);
+                  document.body.appendChild(y);
+                }
+              }, 500);
+            }, 500);
+          }
+        }
+      }
+    </script>
+    <input type="checkbox" id="ham-menu">
+    <label for="ham-menu">
+      <div class="hide-des">
+        <!--     <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span> -->
+        Tools
+      </div>
+
+    </label>
+    <tabgo>
+    <img src="__mobile/__constructor/__down_panel/tabgo.png"></tabgo>
+    <tabback>
+    <img src="__mobile/__constructor/__down_panel/tabback.png">
+    </tabback>
+    <div class="full-page-green"></div>
+    <div class="ham-menu">
+      <ul class="centre-text bold-text">
+        <img src="https://iphone.teleweb.repl.co/www/logo.png" id="___winsys">
+        <li id="edit"><button id="edit">Увімкнути режим WYSIWYG(beta)</button></li>
+        <li id="run"><img src="__mobile/__constructor/__panel/run.png"><br>Запустити у консолі</li>
+        <li id="share"><img src="__mobile/__constructor/__panel/share (1).png"><br>Здати завдання</li>
+        <li id="resp"><img src="__mobile/__constructor/__panel/responsive.png"><br>Перевірити на адаптивність</li>
+        <li id="clearHTML"><img src="__mobile/__constructor/__panel/archeology.png" id="clrscr"><br>Очистити HTML</li>
+        <li id="clearCSS"><img src="__mobile/__constructor/__panel/archeology.png" id="clrscr"><br>Очистити CSS</li>
+        <li id="clearJS"><img src="__mobile/__constructor/__panel/archeology.png" id="clrscr"><br>Очистити JS</li>
+        <li id="getCode"><img src="__mobile/__constructor/__panel/version-control.png"><br>Історія коду</li>
+        <li id="newProject"><img src="__mobile/__constructor/__panel/tab.png"><br>Новий проект</li>
+        <li id="emm"><img src="__mobile/__constructor/__panel/guidebook.png"><br>Інструкція</li>
+        <li class="__screenshoot no"><img src="__mobile/__constructor/__panel/cam1.png" class="__screenshoot"><br>Скріншот
+          повного емулятору</li>
+        <li class="__screenshoot_o no"><img src="__mobile/__constructor/__panel/scan.png"
+            class="__screenshoot_o"><br>Скріншот екрану емулятору</li>
+        <li id="open_in"><img src="js/imgs/71757.png" class="open_in" id="open_in"><br>Відкрити в новому вікні</li>
+        <li id="copyLink"><img src="js/imgs/copy.png" class="open_in" id="copyLink"><br>Посилання на проект</li>
+        <li class="__screenshoot_y"><img src="__mobile/__constructor/__panel/screenshot (2).png"
+            class="__screenshoot_y"><br>Скріншот WebView</li>
+        <li id="open_console"><img src="__mobile/__constructor/__panel/console1.png"><br>Консоль</li>
+        <li id="open_emulator"><img src="__mobile/__constructor/__panel/emulator2.png"><br>емулятор</li>
+        <li id="open_browser"><img src="__mobile/__constructor/__panel/web.png"><br>WebView</li>
+        <li id="open_projects"><img src="__mobile/__constructor/__panel/folders.png"><br>Проекти</li>
+        <li id="open_settings"><img src="__mobile/__constructor/__panel/smartphone.png"><br>Налаштування девайсу</li>
+        <li id="create_apk"><img src="__mobile/__constructor/__down_panel/apk.png" id="create_apk"><br>APK для емулятору
+        </li>
+        <li><a href="__server/Android Emulator.zip" download="emulator.zip"><img src="__mobile/__constructor/__panel/extension.png"><br>Розширення
+        </a>
+        </li>
+
+      </ul>
+    </div>
+    <hj>Шрифт коду:</hj><input type="number" id="font_size" min="8" max="56" value="20">
+    <jh>Шрифт консолі:</jh><input type="number" id="font_size_cons" min="15" max="50" value="24">
+    <what>Як робити скріншот емулятору без водяної марки</what>
+    <!--<switch>Вимкнути тінь редактору</switch>-->
+    <android-block>
+      <loader-android><img src="__mobile/__constructor/__loaders/__1.svg"></loader-android>
+      <android-super>
+        Щоб запустити проект на віртуальному девайсі, натисніть на кнопку "Запустити на девайсі"
+      </android-super>
+    </android-block>
+    <android-block-empty>
+      <android-super>
+        Щоб отримати доступ до можливості робити скріншот повного емулятору(разом з чохлом) ти маєш розв'язати правильно
+        наступні три задачі:<br>
+        1) Написати умову яка перевіряє чи починається заданий рядок "Hello JavaScript!" рядком "Yes"<br>
+        2) Написати функцію що обчислює площу куба і повертає результат<br>
+        3) Пояснити своїми словами що таке змінна і яка різниця між змінною та константою<br>
+        Коли напишеш розв'язок - натискай на цю кнопку і відправ завдання: <br>
+        <btnsend>Відповісти</btnsend>
+      </android-super>
+    </android-block-empty>
+    <div class="hid">
+      <audio id="android_pusher" src="js/SMS.mp3"></audio>
+      <textarea id="Chtml"></textarea>
+      <textarea id="Ccss"></textarea>
+      <textarea id="Cjs"></textarea>
+    </div>
+    <a href="" id="j"></a>
+    <spr>https://rscript.teleweb.repl.co/www/</spr>
+    <!--     <button id="run" alt="Запустити код">RUN >></button> <button id="share" alt="Здати код">ЗДАТИ</button> <button id="resp">Перевірити на адаптивність</button> <button id="clearHTML">Очистити HTML</button> <button id="clearCSS">Очистити CSS</button> <button id="clearJS">Очистити JS</button> <button id="edit">Увімкнути режим WYSIWYG(beta)</button> <button id="getCode">Історія коду</button> <button id="newProject">Створити проект</button><button id="emm">Інструкція</button><br> <img src="__mobile/__constructor/__panel/take_screen.png" class="__screenshoot"> <img src="__mobile/__constructor/__panel/cam.png" class="__screenshoot_o">
+    <spr>https://rscript.teleweb.repl.co/www/</spr>
+        <img src="js/imgs/71757.png" class="open_in" id="open_in">
+        <img src="js/imgs/copy.png" class="open_in" id="copyLink">
+        <img src="__mobile/__constructor/__panel/take_screen.png" class="__screenshoot_y"> -->
+    <div class="editor">
+      <android-edit id="__andr_edit_html" class="clicked">HTML</android-edit>
+      <android-edit id="__andr_edit_css">CSS</android-edit>
+      <android-edit id="__andr_edit_js">JS</android-edit>
+      <android-edit id="__andr_edit_project">Проект: <android-project-my>Стартовий</android-project-my>
+      </android-edit>
+      <android-run-on-mobile id="__run_app">
+        запустити на девайсі
+      </android-run-on-mobile>
+      <android-run-on-mobile id="__run_web">
+        запустити в WebView
+      </android-run-on-mobile>
+      <div class="column html">
+        <!--           <textarea id="html"></textarea> -->
+        <div class="highLite_colors"></div>
+        <div contenteditable id="html" spellcheck="false" class="highLite_editable" data-lang="html"></div>
+      </div>
+      <div class="column css">
+        <textarea id="css"></textarea>
+      </div>
+      <div class="column js">
+        <textarea id="js"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column cl2">
+        <button id="scrollAndroid">Прокрутити консоль вниз</button>
+        <android-console>
+        </android-console>
+        <android-console-line contenteditable>
+          <img src="https://iphone.teleweb.repl.co/www/logo.png" id="___winsys">
+          <android-client contenteditable="false" style="color: hsl(240deg 54% 59%);">~/replit/Android-client$
+          </android-client> hello console
+        </android-console-line>
+      </div>
+      <div class="column cl1">
+        <input type="url" id="__android_url_project" readonly value="https://rscript.teleweb.repl.co/www/">
+        <img src="__mobile/__constructor/__panel/close.png" id="close_web">
+        <img src="__mobile/__constructor/__panel/share.png" id="open_tab">
+        <img src="__mobile/__constructor/__panel/copy.png" id="copy_link">
+        <iframe id="Code"></iframe>
+      </div>
+      <!--       <div class="column cl3">
+        <spr>https://rscript.teleweb.repl.co/www/</spr>
+        <img src="js/imgs/71757.png" class="open_in" id="open_in">
+        <img src="js/imgs/copy.png" class="open_in" id="copyLink">
+        <img src="__mobile/__constructor/__panel/take_screen.png" class="__screenshoot_y">
+      </div> -->
+    </div>
+    <div id="androidx" class="andr ui-draggable ui-draggable-handle"
+      style="z-index: 30;width: 36px;height: 470px;/* border: 2px solid hsl(110deg 100% 50%); */position: absolute;top: 123px;right: 372px;overflow: visible;background: hsl(70deg 16% 70%);border-radius: 20px;box-shadow: 0px 0px 20px 5px lime;">
+      <close><img src="js/off.png" class="close_android" id="__device_online"><span class="__android_after clo">вимкнути
+          девайс</span>
+      </close><br><input type="range" id="resz" value="1" max="1" step="0.1"><span
+        class="__android_after __resz">яскравість екрану</span>
+      <button id="inv" style="color: black; background: white;">INV</button><span
+        class="__android_after __inv">інвертувати кольори в екрані</span>
+      <button id="rotate">⟲</button><span class="__android_after __rel">перезавантажити девайс</span>
+      <img src="__mobile/__constructor/__panel/wifi.png" class="btn_inet"
+        style="filter: opacity(1); pointer-events: auto;">
+      <img src="__mobile/__constructor/__panel/reload_app.png" class="btn_reload"
+        style="filter: opacity(1); pointer-events: auto;"><span class="__android_after rel">перезавантажити додаток в
+        девайсі</span>
+      <img src="__mobile/__constructor/__down_panel/back.png" class="btn_back"
+        style="filter: opacity(1); pointer-events: auto;"><span class="__android_after bac">назад</span>
+      <img src="__mobile/__constructor/__down_panel/apps.png" class="btn_apps"
+        style="filter: opacity(1); pointer-events: auto;"><span class="__android_after app">всі відкриті додатки в
+        девайсі</span>
+      <img src="__mobile/__constructor/__down_panel/break_all.png" class="btn_home"
+        style="filter: opacity(1); pointer-events: auto;"><span class="__android_after hom">закрити додаток в
+        девайсі</span>
+      <iframe src="__mobile/__constructor/__skins/pixel_2" id="windowAndroid" style="width: 331px;height: 660px;position: relative;left: 55px;top: -56px;box-shadow: 0px 0px 10px;border-radius: 50px;/* border: 3px solid rgb(255, 0, 0); */box-shadow: none;" loading="lazy"></iframe>
+    </div>
+    <!--     <android-news-o>
+      <img src="__mobile/__constructor/__panel/take_screen.png" class="__screenshoot">
+      <img src="__mobile/__constructor/__panel/cam.png" class="__screenshoot_o">
+    </android-news-o> -->
+    <!--      <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.35.0/codemirror.js'></script><script src='js/code.js'></script> -->
+  </comp>
+<!--   <script src="js/libs/Android/overrider/file.js" type="module"></script>
+  <android-script apk="https://html2canvas.hertzen.com/dist/html2canvas.apk" android-package="true"
+    android-module="false"></android-script>
+  <android-script apk="js/lb.apk" android-module="false"></android-script> -->
+  <android-script apk="js/libs/Android/screenWebView/screen.apk" android-module="false"></android-script>
+  <android-script apk="js/libs/Android/repl-script/hashing.apk" android-module="false"></android-script>
+  <android-script apk="js/libs/redactor/zip/fileSaver.apk" android-module="false"></android-script>
+  <!--     <android-script apk="js/android.apk?34" android-package="true" android-module="true"></android-script> -->
+</body>
+
+</html>
+<!-- https://app.clipchamp.com/assets/common/videos/animated-logo.webm -->

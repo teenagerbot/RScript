@@ -1,0 +1,26 @@
+import {_Android_,
+        _ANDROID_DOM_,
+        _ANDROID_LOG_,
+        __Validator
+       } from "../overrider/window.js";
+customElements.define('android-script', class extends HTMLElement {
+  connectedCallback() {
+    const shadow = this.attachShadow({mode: 'closed'});
+    let scr = _ANDROID_DOM_.createElement("script");
+    let moduleIs = (this.getAttribute("android-module") == "true")?`type="module"`:"";
+    scr.src = this.getAttribute("apk").replace(/(.+)\.apk/g, "$1.js");
+    if (moduleIs != "") {
+      scr.setAttribute("type", "module");
+    }
+    shadow.appendChild(scr);
+  }
+});
+navigator.connection.onchange = function() {
+  if (navigator.onLine == false) {
+    document.querySelector("android-block").style.display = "";
+    document.querySelector("body").style.overflow = "hidden";
+  } else {
+    document.querySelector("android-block").style.display = "none";
+    document.querySelector("body").style.overflow = "scroll";
+  }
+}

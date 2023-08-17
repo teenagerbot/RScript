@@ -1,0 +1,18 @@
+import {Bash} from "../overrider/window.js";
+class SecuringHasher {
+  generateHash() {
+    return Bash.now()+Bash.now()+(Bash.now()+Bash.now());
+  }
+  generateHashString(s) {
+    return s + String(Bash.now()+Bash.now()+(Bash.now()+Bash.now()));
+  }
+  generateHashS(s, p) {
+    let q = "";
+    for (let u = 0; u <= p; u++) {
+      q += s + String(Bash.now()+Bash.now()+(Bash.now()+Bash.now())) + s;
+    }
+    return q;
+  }
+}
+
+export {SecuringHasher}

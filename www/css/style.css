@@ -1,0 +1,2467 @@
+.column {
+	margin: 5px;
+  font-size: 20px;
+  position: absolute;
+  height: 90vh;
+  overflow: scroll;
+  width: 60%;
+}
+img#___winsys {
+  width: 105%;
+  margin-top: 10px;
+}
+button#edit {
+  display: none;
+}
+a[download]:after {
+  content: "" !important;
+  display: none !important;
+}
+a[download] {
+  font-size: 15px;
+  text-decoration: none;
+  color: #616161;
+}
+a[download] img {
+  width: 30px;
+}
+#androidx {
+    display: none;
+  }
+@media only screen and (max-width: 600px) {
+  #androidx {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #androidx {
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  comp, body {
+    display: block;
+    width: 189vw !important;
+  }
+  .column.html, .column.css, .column.js {
+    width: 100% !important;
+    height: 90vh !important;
+    position: absolute;
+  }
+  .column {
+    top: 100%;
+    width: 180vw;
+    position: relative;
+  }
+  #html, .highLite_colors {
+    height: 90vh !important;
+    font-size: 16px !important;
+  }
+  .cl2 {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .cl1 {
+    width: 100%;
+    top:200%;
+  }
+  .row {
+    position: absolute;
+    bottom: 0px;
+    top: 100%;
+    width: 189vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  hj, #font_size, jh, #font_size_cons, what {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  tabgo img, tabback img {
+    position: absolute !important;
+    top:0px;
+    margin:0px;
+    display: inline;
+  }
+  tabgo img {
+    left: 40% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .CodeMirror.cm-s-monokai.CodeMirror-wrap {
+      font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  hj, #font_size, jh, #font_size_cons, what {
+    display: none !important;
+  }
+  .ham-menu {
+    width: 50% !important;
+  }
+  
+#create_apk {
+  display: none;
+}
+#androidx {
+  position: relative !important;
+  left: 20%;
+  z-index: 31 !important;
+}
+}
+@media only screen and (max-width: 600px) {
+  input#__android_url_project {
+    width: 85%;
+  }
+}
+
+tabgo img {
+  position: absolute;
+  z-index: 32;
+  width: 30px;
+  background: white;
+  left: 60%;
+  top: 84px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+tabback img {
+  position: absolute;
+  z-index: 32;
+  width: 30px;
+  background: white;
+  left: 60%;
+  top: 120px;
+  cursor: pointer;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+}
+input#gggj {
+  width: 90%;
+  font-size: 22px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
+  outline: none;
+  border: 2px blue solid;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0px 0px 10px;
+}
+#info_project input::placeholder {
+  color: black;
+}
+input#gggj::placeholder {
+  color:red;
+  text-align: center;
+}
+
+electron {
+  color: lime;
+  text-shadow: none;
+  font-size: 25px;
+}
+#create_apk img {
+  width: 64px;
+}
+img#___zip {
+  width: 30px;
+}
+
+button#__zip {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.project a[download] {
+  display: inline;
+  padding: 0px;
+  position: relative;
+  top: 6px;
+  left: 4%;
+  text-decoration: none;
+}
+
+img#___download {
+  width: 30px;
+}
+download {
+  text-decoration: none;
+  position: relative;
+  bottom: 7px;
+}
+ang {
+  display: block;
+  position: absolute;
+  right: 6px;
+  background: #256f80;
+  width: 33%;
+  height: 98%;
+  top: 6px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: 2px #053b48 solid;
+  box-shadow: 0px 0px 10px black;
+  overflow: scroll;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 5px;
+}
+error-scan {
+  display: block;
+  color: #00cfff;
+  text-shadow: 0px 0px 16px red;
+  box-shadow: 0px 0px 10px 5px #a32e2e;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 21px;
+  border-radius: 10px;
+  padding-left:4px;
+}
+warn {
+  color: yellow;
+}
+desk {
+  display: block;
+  width: 65%;
+  position: relative;
+  border: none;
+  height: 98%;
+  top: -28px;
+  left: 4px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  box-shadow: 0px 0px 10px black;
+  overflow: scroll;
+}
+builder-show#__builder::before {
+  content: "APK manager";
+  display: block;
+  position: relative;
+  top: -43px;
+  background: #19505d;
+  width: fit-content;
+  left: 10px;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 0px 14px 9px #256f80, inset 1px 14px 0px 5px #00000066, inset -1px -9px 20px 18px #256f80;
+}
+warning-scan {
+  display: block;
+  color: #00cfff;
+  text-shadow: 0px 0px 16px #b3a83f;
+  box-shadow: 0px 0px 10px 5px #c6e71e;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 21px;
+  border-radius: 10px;
+  padding-left:4px;
+}
+cllose {
+  display: block;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  cursor: pointer;
+  user-select: none;
+  border: 2px lime solid;
+  border-radius: 20px;
+  padding: 5px;
+  background: #256f80;
+}
+info-scan {
+  display: block;
+  color: #00cfff;
+  text-shadow: 0px 0px 16px #3fb356;
+  box-shadow: 0px 0px 10px 5px #1ba012;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 21px;
+  border-radius: 10px;
+  padding-left:4px;
+}
+button#__get_apk {
+  background: #124f5d;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(118%);
+}
+info-scan:first-child {
+  margin-top: 10px;
+}
+card-info {
+  width: fit-content;
+  display: inline-block;
+  margin-top: 40px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  background: white;
+  color: black;
+  margin-left: 10px;
+  box-shadow: 0px 0px 10px lime, inset 0px 0px 10px lime;
+  transition: 1s linear;
+  transform: scale(0);
+}
+card-info.open {
+  transform: scale(1);
+}
+
+card-info img {
+  width: 63px;
+  position: relative;
+  z-index: 3;
+}
+
+name-info {
+  position: relative;
+  z-index: 2;
+}
+error-scan:first-child {
+  margin-top: 10px;
+}
+#__builder pre {
+  font-size: 30px;
+  width: fit-content;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+builder-show#__builder {
+  width: 80%;
+  display: block;
+  height: 73%;
+  position: fixed;
+  background: #256f80;
+  z-index: 41;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px #256f80, inset 0px 0px 10px 5px #000000;
+  text-align: center;
+}
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+android-block-empty {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: hsl(0deg 0% 0% / 84%);
+  z-index: 200;
+  cursor: pointer;
+}
+switch {
+  position: absolute;
+  font-size: 20px;
+  display: block;
+  width: fit-content;
+  left: 44%;
+  cursor: pointer;
+}
+btnsend {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  background: grey;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+android-block-empty android-super {
+  background-color: hsl(220deg 88% 29% / 84%);
+}
+what {
+  position: absolute;
+  right: 9px;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+input#font_size_cons {
+  position: absolute;
+  left: 485px;
+  font-size: 25px;
+  width: 48px;
+  background: black;
+  color: lime;
+  box-shadow: 0px 0px 10px;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+hj {
+  position: absolute;
+  left: 10%;
+  top: 10px;
+  font-size: 23px;
+}
+/*1728*/
+jh {
+  position: absolute;
+  left: 25%;
+  top: 10px;
+  font-size: 23px;
+}
+:root {
+  --home-bg-color: #f2f3ee;
+  --menu-bg-color: #cbcbc2;
+  --silde-btn-border: #808080;
+  --slide-btn-bg: #ddf2db;
+  --slide-btn-hoverbg: #f1fff1;
+  --alpha-green: rgba(33, 96, 47, 0.51);
+  --icon-hover-color: #344a39;
+  --icon-hover-bg: #709680;
+  --text-color: #616161;
+  --border-color: #709680;
+  --heading-color: #344a39;
+  --box-shadow-color: #b5b5ac;
+  --lightest-green: #86a58d;
+  --light-green: #9ab09a;
+  --dark-green: rgba(52, 74, 57, 0.86);
+  --box-shadow: 0px 0px 3px 5px var(--box-shadow-color);
+  --border-radius: 60px 5px;
+  --fade-green: rgba(57, 87, 64, 0.55);
+}
+#ham-menu {
+  display: none;
+}
+update-repl {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #000000d1;
+  position: fixed;
+  z-index: 50;
+}
+
+update-repl img {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+label[for="ham-menu"] {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  z-index: 33;
+  width: 40px;
+  height: 40px;
+  /* background-color: var(--home-bg-color); */
+  /* border-radius: 15px; */
+  /* border: 2px solid var(--border-color); */
+}
+blocki {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #13164a94;
+  z-index: 41;
+  box-shadow: inset 0px 0px 20px 7px #0000ff2b;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ham-menu {
+  width: 30vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+  transform: translate(-110%);
+  z-index: 32;
+  background-color: hsl(0deg 0% 0%);
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  align-items: stretch;
+  border-right: 3px lime solid;
+  box-shadow: 0px 0px 10px lime, inset 0px 0px 10px lime;
+}
+.ham-menu > ul {
+  /* display: flex; */
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  padding: 20px;
+  height: fit-content;
+}
+.ham-menu > ul > li {
+  /* font-size: 5rem; */
+  white-space: nowrap;
+  cursor: pointer;
+  color: rgb(97, 97, 97);
+  margin-bottom: 10px;
+}
+#ham-menu:checked + label {
+  background-color: transparent;
+  border-color: var(--dark-green);
+}
+#ham-menu:checked ~ div.ham-menu {
+  transform: translate(0px);
+  visibility: visible;
+}
+.full-page-green {
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-green);
+  z-index: 31;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  transition: 500ms;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#ham-menu:checked ~ div.full-page-green {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+[for="ham-menu"] > div {
+   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  background: hsl(0deg 0% 0%);
+  color: lime;
+  /* box-shadow: 0px 0px 10px; */
+  /* border-radius: 30px; */
+  cursor: pointer;
+  user-select: none;
+}
+.menu-line {
+  display: block;
+  width: 17px;
+  height: 2px;
+  margin: 10px 0 5px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: var(--border-color);
+  transition: 500ms;
+  transform-origin: right center;
+}
+[for="ham-menu"] > div > span:nth-child(4),
+[for="ham-menu"] > div > span:nth-child(5),
+[for="ham-menu"] > div > span:nth-child(6) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transform-origin: left center;
+}
+#ham-menu:checked + label span {
+  background-color: var(--dark-green);
+}
+#ham-menu:checked + label span:nth-child(2),
+#ham-menu:checked + label span:nth-child(5) {
+  transform: scale(0);
+}
+#ham-menu:checked + label span:nth-child(1) {
+  transform: translateY(17px) rotate(45deg);
+}
+#ham-menu:checked + label span:nth-child(4) {
+  transform: translateY(17px) rotate(-45deg);
+}
+#ham-menu:checked + label span:nth-child(3) {
+  transform: translateY(-17px) rotate(-45deg);
+}
+#ham-menu:checked + label span:nth-child(6) {
+  transform: translateY(-17px) rotate(45deg);
+}
+.ham-menu p {
+  display: inline;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+  font-family: "OpenSansCondensed-Light";
+}
+a {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+  font-family: "OpenSansCondensed-Light";
+  display: inline;
+  font-weight: bold;
+  padding: 7px;
+  color: var(--icon-hover-bg);
+}
+.ham-menu a::after {
+  content: "\e806";
+  display: inline-block;
+  font-family: fontello;
+  padding: 5px;
+  font-size: 1.6rem;
+  transform: rotate(-90deg);
+}
+.text {
+  font-size: 2.5rem;
+  line-height: 1.5em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+  font-family: "OpenSansCondensed-Bold", sans-serif;
+}
+.title {
+  font-size: 3rem;
+  line-height: 1.5em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+  font-family: "OpenSansCondensed-Bold", sans-serif;
+  color: var(--icon-hover-bg);
+  padding: 10px;
+}
+.heading {
+  font-size: 6rem;
+  line-height: 1.5em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+  font-family: "Patua One";
+}
+.centre-text {
+  text-align: center;
+}
+.bold-text {
+  font-weight: bold;
+}
+#open_settings img {
+  width: 49px;
+  height: 40px;
+  object-fit: fill;
+}
+
+#open_projects img {
+  width: 35px;
+}
+img.__screenshoot_y {
+  width: 42px;
+  cursor: pointer;
+}
+img.__screenshoot {
+/*   position: absolute; */
+  width: 32px;
+/*   top: -2px; */
+/*   bottom: 0%; */
+  cursor: pointer;
+  left: 49px;
+}
+@media only screen and (min-width: 1360) {
+  .column.cl1 {
+  position: absolute;
+  bottom: -105px;
+}
+}
+.CodeMirror.cm-s-monokai.CodeMirror-wrap {
+  font-size: 20px;
+}
+body {
+  overflow: hidden;
+}
+.cm-s-monokai::-webkit-scrollbar {
+  display: none !important;
+}
+.column.html {
+  z-index: 30;
+}
+emul {
+  font-size: 15px;
+  margin-left: 20px;
+  color: lime;
+}
+spn img {
+  width: 55px;
+  position: absolute;
+  right: 1px;
+  top: -11px;
+}
+#__android_url_project::selection {
+  color: black;
+  background-color: lime;
+}
+input#__android_url_project {
+  position: absolute;
+  width: 92%;/*99.5*/
+  background: black;
+  color: lime;
+  font-size: 25px;
+  border: 2px hsl(120deg 94% 28%) solid;
+  border-bottom: none;
+  z-index: 31;
+  outline: none;
+  box-shadow: inset 0px 0px 20px 1px;
+  border-radius: 5px;
+  border-top-right-radius: 10px;
+  height: 33px;
+  border-left: none;
+  border-right: none;
+  border-bottom-right-radius: 10px;
+}
+input#font_size {
+  position: absolute;
+  left: 262px;
+  font-size: 25px;
+  width: 48px;
+  background: black;
+  color: lime;
+  box-shadow: 0px 0px 10px;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+
+div#spin {
+  opacity: 1 !important;
+}
+
+input#font_size::-webkit-inner-spin-button, input#font_size_cons::-webkit-inner-spin-button {
+  opacity: 1;
+}
+h2.project {
+/*   border-bottom: 1px hsl(205deg 56% 58%) solid; */
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  box-shadow: 0px 9px 10px #3737af;
+}
+iframe#Code {
+  border-radius: 0px;
+  position: relative;
+  bottom: -33px;
+  border: 2px lime solid;
+  border-top: none;
+  border-right: none;
+  width: 100%;
+  height: 96%;
+}
+android-edit#__andr_edit_project {
+  left: 577px;
+}
+img#close_web {
+  cursor: pointer;
+  position: absolute;
+  right: -4px;
+  width: 40px;
+  top: -3px;
+}
+sprk {
+  font-size: 40px;
+  text-shadow: none;
+}
+.column.css {
+  z-index: 20;
+/*   width: 399px; */
+  left: 10px;
+/*   height: 44vh; */
+  overflow: scroll;
+}
+.column.js {
+  z-index: 10;
+  left: 10px;
+/*   width: 398px; */
+}
+android-edit {
+  position: absolute;
+  top: -37px;
+  color: lime;
+  font-size: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+android-edit#__andr_edit_css {
+  left: 83px;
+}
+
+android-edit#__andr_edit_js {
+  left: 142px;
+}
+video {
+  height: 100%;
+}
+
+android-edit.clicked {
+  border: 2px red solid;
+  border-radius: 10px;
+  color: white;
+}
+.editor {
+  top: 43px;
+  position: relative;
+}
+@media only screen and (min-width: 600px) {
+  .column.cl1 {
+  position: fixed;
+  bottom: -9px;
+  overflow: hidden;
+  resize: both;
+}
+}
+.column.cl3 {
+  position: absolute;
+  bottom: -37px;
+  left: 60.6%;
+  height: 49.4vh;
+  border-radius: 0px;
+  border: 2px lime solid;
+  border-left: none;
+}
+.cm-s-monokai {
+/*   border: 2px red solid; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-radius: 10px;
+/*   box-shadow: 0px 0px 0px 19px grey; */
+	height: 100vh;
+  min-height: 300px;
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .editor {
+/*     display: grid; */
+  	grid-template-columns: 33% 33% 33%;
+  }
+}
+spn {
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+#newProject {
+  display: none;
+}
+.hio {
+  position: fixed;
+    width: 371px;
+    height: auto;
+    white-space: pre;
+    top: 84px;
+    color: hsl(240deg 62% 60%);
+    background: hsl(0deg 0% 100% / 45%);
+    border-radius: 40px;
+    left: 70%;
+    filter: drop-shadow(0px 0px 6px lime);
+    box-shadow: 0px 0px 10px 5px;
+  animation: et 2s infinite;
+}
+.hior {
+  position: fixed;
+    width: 371px;
+    height: auto;
+    white-space: pre;
+    top: 367px;
+    color: hsl(240deg 62% 60%);
+    background: hsl(0deg 0% 100% / 45%);
+    border-radius: 40px;
+    left: 2%;
+    filter: drop-shadow(0px 0px 6px lime);
+    box-shadow: 0px 0px 10px 5px;
+  animation-delay: 2s;
+  animation: eti 2s infinite;
+}
+.hiu {
+  font-size: 50px;
+    position: fixed;
+    top: 200vh;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    color: hsl(215deg 100% 50%);
+    text-shadow: 0px 0px 10px;
+    background: hsl(0deg 0% 100%);
+    border-radius: 20px;
+  animation: tu 2s 1 forwards;
+  animation-delay: 1s;
+}
+lp {
+  position: relative;
+  display: block;
+  transform: scale(2);
+  top: -10px;
+}
+@keyframes tu {
+  10% {
+    top: 200vh;
+  }
+  100% {
+    top: 125px;
+  }
+}
+.hiod {
+  position: fixed;
+    width: 371px;
+    height: auto;
+    white-space: pre;
+    top: 84px;
+    color: hsl(240deg 62% 60%);
+    background: hsl(0deg 0% 100% / 0%);
+    border-radius: 40px;
+    left: 34%;
+    filter: drop-shadow(0px 0px 6px lime);
+    box-shadow: 0px 0px 10px 5px;
+  animation: eti 2.4s infinite;
+  animation-delay: 2s;
+}
+@keyframes et {
+  0% {
+    transform-origin: top;
+    transform: rotateZ(-17deg);
+}
+50% {
+    transform-origin: top;
+    transform: rotateZ(17deg);
+}
+100% {
+    transform-origin: top;
+    transform: rotateZ(-17deg);
+}
+}
+@keyframes eti {
+  0% {
+    transform-origin: top;
+    transform: rotateZ(-17deg);
+}
+50% {
+    transform-origin: top;
+    transform: rotateZ(17deg);
+}
+100% {
+    transform-origin: top;
+    transform: rotateZ(-17deg);
+}
+}
+hi {
+  opacity: 1;
+  color: hsl(240deg 85% 56%);
+}
+#hix {
+  animation: ui 2s infinite;
+}
+@keyframes ui {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#cart {
+  white-space: pre;
+  border-bottom: 2px hsl(120deg 100% 50%) solid;
+  display: block;
+  border-top: 14px hsl(214deg 66% 43%) solid;
+  position: relative;
+}
+.cart1 {
+  left: -61px;
+  transform: scale(.3);
+}
+.cart0 {
+  transform: scale(1);
+}
+.cart2 {
+  left: -85px;
+  transform: scale(.45);
+}
+.cart3 {
+  transform: scale(.6);
+  left: -20px;
+}
+.cart4 {
+  transform: scale(.6);
+}
+.cart5 {
+  transform: scale(.4);
+  left: -35px;
+}
+.cart6 {
+  transform: scale(.45);
+  left: -88px;
+}
+.cart7 {
+  transform: scale(1);
+  text-shadow: none;
+}
+.highLite {
+  position: relative;
+  background: hsl(220, 16%, 14%);
+}
+/*hsl(70deg 8% 14%);*/
+.highLite_colors,
+.highLite_editable {
+  padding: 16px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 13px;
+  width: 367px;
+  background: black;
+}
+
+/* THE OVERLAYING CONTENTEDITABLE WITH TRANSPARENT TEXT */
+.highLite_editable {
+  position: relative;
+  color: rgb(49 255 0); /* Make text invisible */
+  caret-color: hsl( 50, 75%, 70%); /* But keep caret visible */
+}
+.highLite_editable:focus {
+  outline: 1px solid hsl(220, 16%, 19%);
+}
+.highLite_editable::selection {
+  background: hsla( 0, 0%, 90%, 0.2);
+}
+.CodeMirror {
+  clip-path: none !important;
+  filter: drop-shadow(0px 0px 8px lime) !important;
+}
+/* THE UNDERLAYING ONE WITH HIGHLIGHT COLORS */
+.highLite_colors {
+  position: absolute;
+  user-select: none;
+  /*   top: 120px; */
+  bottom: 357px;
+  overflow-y: scroll;
+  left: 12px;
+  height: 100vh;
+  font-size: 20px;
+  word-break: break-word;
+  text-shadow: 0px 0px 20px, 0px 0px 10px;
+  filter: drop-shadow(0px 0px 8px lime);
+  border-radius: 10px;
+  min-height: 10vh;
+  width: 100%;
+  background-image: url(https://iphone.teleweb.repl.co/www/logo.png);
+  background-repeat: no-repeat;
+  background-size: 198px;
+  background-position: 88% top;
+}
+.highLite_colors::-webkit-scrollbar {
+  display: none;
+}
+.cm-s-monokai.CodeMirror {
+    text-shadow: 0px 0px 20px, 0px 0px 20px !important;
+}
+.highLite_colors i {
+  font-style: normal;
+}
+
+/* JS */
+i.js_quot { color: hsl( 50, 75%, 70%); }
+i.js_decl { color: hsl(200, 75%, 70%); }
+i.js_func { color: hsl(300, 75%, 70%); }
+i.js_pare { color: hsl(210, 75%, 70%); }
+i.js_squa { color: hsl(230, 75%, 70%); }
+i.js_curl { color: hsl(250, 75%, 70%); }
+i.js_numb { color: hsl(100, 75%, 70%); }
+i.js_logi { color: hsl(200, 75%, 70%); }
+i.js_equa { color: hsl(200, 75%, 70%); }
+i.js_meth { color: hsl(121, 59%, 64%); }
+i.js_inli { color: hsl(308, 83%, 53%); }
+i.js_jkli { color: hsl(47, 83%, 53%); }
+i.js_comm { color: hsl(200, 10%, 45%); font-style: italic; }
+i.js_comm > * { color: inherit; }
+
+/* HTML */
+i.html_angl { color: hsl(100deg 86% 50%); }
+i.html_tags { color: hsl(0, 75%, 70%); }
+i.html_attr { color: hsl(200, 74%, 70%); }html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+android-textarea-element .android_im_os {
+    width: 79px;
+    margin: 0;
+    border-radius: 0;
+}
+android-message-text .android_im_os {
+    width: 232px;
+}
+#html {
+  width: 100%;
+  background: hsl(0deg 0% 100% / 0%);
+    display: inline-block;
+    height: 100vh;
+    color: hsl(0deg 0% 0% / 0%);
+  font-size: 20px;
+  overflow-y: scroll;
+  word-break: break-word;
+  cursor: text;
+  left: 10px;
+}
+.cm-s-monokai.CodeMirror {
+    background: hsl(0deg 0% 0%) !important;
+}
+.android_im_os {
+  width: 341px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  filter: drop-shadow(2px 4px 6px green);
+}
+android-console video {
+  width: 307px;
+    display: block;
+    margin: auto;
+    filter: drop-shadow(2px 4px 6px lime);
+  margin-top: 45px;
+}
+.android_video {
+  width: 355px;
+    height: 220px;
+    background: hsl(70deg 8% 15%);
+    position: fixed;
+    bottom: 10px;
+    right: 36px;
+    margin-left: 0px;
+    overflow: hidden;
+  border-radius: 10px;
+    filter: drop-shadow(13px -13px 2px black);
+}
+android-close {
+  color: hsl(120deg 100% 50%);
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 10px;
+}
+.android_video video {
+  width: 100%;
+  position: relative;
+}
+android-user-message-system {
+  color: hsl(0deg 0% 100%);
+  text-align: center;
+  display: block;
+  word-break: break-word;
+  margin-top: 11px;
+  font-size: 20px;
+}
+android-user-object {
+  color: lime;
+}
+android-chat-user {
+  border: 2px hsl(120deg 100% 50%) solid;
+  display: block;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px 4px #454560;
+  backdrop-filter: brightness(0.5);
+  filter: drop-shadow(2px 4px 6px black);
+}
+android-textarea-element {
+  width: 80%;
+  height: 100%;
+  padding: 2px;
+  font: -webkit-small-control;
+  resize: both;
+  overflow: auto;
+  display: inline-block;
+  background: hsl(70deg 8% 15%);
+  outline: none;
+  border: none;
+  text-shadow: 0px 0px 10px lime;
+  color: hsl(120deg 100% 50%);
+  font-size: 20px;
+}
+android-textarea-element::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+android-textarea-element {
+  cursor: text;
+}
+android-textarea-element::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+android-textarea-element img {
+  width: 64px;
+  filter: drop-shadow(0px 0px 6px lime);
+}
+/* Handle */
+android-textarea-element::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+android-textarea-element::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+android-message-text img {
+  width: 200px;
+  border: 2px hsl(120deg 100% 50%) solid;
+  filter: drop-shadow(0px 0px 6px lime);
+  border-radius: 10px;
+}
+android-textarea-element[contenteditable][placeholder]:empty:before {
+  content: attr(placeholder);
+  position: absolute;
+  color: gray;
+  background-color: transparent;
+}
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+iframe::webkit-scrollbar {
+  display: none;
+}
+body {
+  cursor: url("https://rscript.teleweb.repl.co/www/cursor.svg"), auto;
+  scroll-behavior: smooth;
+}
+h3 {
+  border-left: 2px hsl(0deg 100% 50%) solid;
+  padding-left: 10px;
+}
+/* BASICS */
+body {
+/*   background: hsl(223deg 73% 71%); */
+/*   background-image: url("../snow.gif"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #44ff00;
+  background-attachment: fixed;
+  background-color: black;
+}
+android-block {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: hsl(0deg 0% 0% / 84%);
+  z-index: 200;
+  cursor: wait;
+}
+loader-android {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+loader-android img {
+  border-radius: 50%;
+  width: 700px;
+}
+/*4326*/
+android-super {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: auto;
+  margin: 0px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 20px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 2px hsl(120deg 11% 28%) solid;
+  padding: 10px;
+  border-radius: 20px;
+  user-select: none;
+  cursor: progress;
+  box-shadow: 0px 0px 20px 2px lime;
+  background: #000000b3;
+}
+img#__looader {
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+iframe {
+  width: 100%;
+    height: 46vh;
+    background: hsl(0deg 0% 100%);
+    border: none;
+    border-radius: 20px;
+}
+button {
+  padding: 5px;
+  border: 4px hsl(116deg 78% 47%) solid;
+  border-radius: 20px;
+  background: hsl(120deg 74% 16%);
+  color: white;
+  font-size: 21px;
+}
+#rotate, #inv {
+  width: inherit;
+  position: absolute;
+}
+#inv {
+  top: 80px;
+  font-size: 15px;
+}
+#open_console img {
+  width: 30px;
+}
+#open_emulator img {
+  width: 41px;
+}
+chat-android {
+  width: 354px;
+    height: 388px;
+    position: fixed;
+    background: hsl(70deg 8% 15%);
+    top: 124px;
+    left: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(green 0px 0px 16px);
+  box-shadow: 0px 0px 15px 5px #998888;
+  z-index: 30;
+}
+chat-android-window {
+  width: 317px;
+    height: 253px;
+    background: hsl(240deg 3% 20%);
+    position: inherit;
+    margin: auto;
+  margin-left: 15px;
+    margin-top: 30px;
+    padding: 3px;
+    border-radius: 10px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+user {
+  color: hsl(120deg 100% 50%);
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+}
+.message_my android-message-text {
+    color: hsl(47deg 73% 42%);
+    text-shadow: 0px 0px 10px;
+}
+chat-android-window::-webkit-scrollbar {
+  display: none;
+}
+chat-android-textarea textarea::selection {
+  color: white;
+  background: red;
+}
+chat-android-button button {
+  width: 18%;
+    float: right;
+/*     height: 83px; */
+/*   height: 43px; */
+  height: 35px;
+    border-radius: 0px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    background: hsl(128deg 40% 39%);
+  cursor: pointer !important;
+}
+android-message-object {
+  color: hsl(120deg 100% 50%);
+    font-size: 20px;
+    text-shadow: 0px 0px 15px;
+  display: block;
+}
+chat-android-button-close button {
+  width: 18%;
+    float: right;
+    /* height: 83px; */
+    height: 35px;
+    border-radius: 0px;
+    position: relative;
+    top: -44px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    background: hsl(128deg 40% 39%);
+    cursor: pointer !important;
+}
+.message_my {
+  position: relative;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+}
+android-chat-messages {
+  display: block;
+}
+chat-android-messages {
+  display: block;
+  font-size: 20px;
+  color: hsl(115deg 100% 50%);
+  text-shadow: 0px 0px 15px;
+}
+chat-android-textarea textarea {
+  width: 270px;
+    height: 83px;
+    background: hsl(70deg 8% 15%);
+    border: none;
+    outline: none;
+    color: hsl(122deg 80% 47%);
+    text-shadow: 0px 0px 10px #2aff00;
+    font-size: 18px;
+}
+chat-android-menu {
+  width: 338px;
+    height: 83px;
+    background: hsl(0deg 0% 0%);
+    position: absolute;
+    bottom: 4px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+button:hover {
+  cursor: url("https://rscript.teleweb.repl.co/www/cursor.svg"), auto;
+}
+#android:hover {
+  cursor: url("https://rscript.teleweb.repl.co/www/cursor.svg"), pointer;
+}
+sp:hover {
+  cursor: move;
+}
+close {
+  position: relative;
+    width: fit-content;
+    height: auto;
+    float: right;
+}
+close:hover {
+  cursor: pointer;
+}
+close img {
+  width: 36px;
+  position: relative;
+/*   left: 1000%; */
+}
+#android iframe {
+  background: transparent;
+}
+#resz {
+  transform: rotateZ(270deg);
+    position: absolute;
+    left: -24px;
+    top: 152px;
+    width: 80px;
+}
+/* #android {
+  background: black;;
+} */
+.cl3 {
+  border: 2px hsl(0deg 100% 50%) solid;
+  border-radius: 20px;
+  background: hsl(240deg 48% 25%);
+}
+.open_in {
+  width: 30px;
+/*   display: block; */
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+img#open_tab {
+  cursor: pointer;
+  position: absolute;
+  right: 33px;
+  width: 35px;
+  top: -1px;
+}
+img#copy_link {
+  cursor: pointer;
+  position: absolute;
+  right: 68px;
+  width: 29px;
+  top: 3px;
+}
+#resp img {
+  width: 35px;
+}
+img#clrscr {
+  width: 35px;
+}
+#getCode img {
+  width: 34px;
+}
+#newProject img {
+  width: 30px;
+}
+@media only screen and (min-width: 600px) {
+  .cl1 {
+    width: 97%;
+    float: left;
+    z-index: 40;
+    height: 80%;
+    top: 10%;
+    display: none;
+    margin-left: 2%;
+    background: black;
+    /* border: 2px lime solid; */
+    box-shadow: 0px 0px 15px 2px lime, inset 0px 0px 20px 1px lime;
+    border-radius: 10px;
+  }
+  .cl3 {
+    width: 4%;
+    height: 42vh;
+    float: left;
+  }
+  .cl2 {
+    width: 34%;
+    height: 92vh;
+    float: right;
+    text-align: left;
+    /* border: 2px hsl(0deg 100% 50%) solid; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /*     background: hsl(70deg 8% 15%); */
+    background: black;
+    color: hsl(120deg 65% 33%);
+    padding: 10px;
+    overflow: scroll;
+    margin-right: 12px;
+    box-shadow: 0px 0px 10px 5px limegreen;
+    scroll-behavior: smooth;
+    text-shadow: 10px 5px 10px;
+    position: relative;
+    /*     left: 420px; */
+    top: -1px;
+    left: 0%;
+    z-index: 40;
+    display: none;
+  }
+}
+button {
+  box-shadow: 0px 0px 10px;
+}
+@media only screen and (max-width: 600px) {
+  .cl1 {
+    width: 97%;
+  }
+  .cl3 {
+    width: 96%;
+    height: 30px;
+    float: left;
+  }
+  .cl2 {
+     width: 95%;
+    height: 45vh;
+    text-align: left;
+    border: 2px hsl(0deg 100% 50%) solid;
+    border-radius: 20px;
+    background: hsl(70deg 8% 15%);
+    color: hsl(120deg 65% 33%);
+    padding: 3px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+}
+
+.cl2::-webkit-scrollbar {
+  display: none;
+}
+ht {
+  text-align: center;
+}
+sp {
+  position: absolute;
+  /* top: 221px; */
+  bottom: 7px;
+  left: 7px;
+}
+.CodeMirror::-webkit-scrollbar, #html::-webkit-scrollbar {
+  display: none;
+}
+#android {
+  animation: xx infinite;
+}
+spr {
+  display: none;
+}
+@keyframes xx {
+  0% {
+    box-shadow: 0px 0px 20px 5px;
+  }
+  40% {
+    box-shadow: 0px 0px 10px 5px;
+  }
+  100% {
+    box-shadow: 0px 0px 5px 5px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .editor {
+    display: block;
+  }
+}
+.instr {
+  width: 50%;
+  height: 300px;
+  border: 2px hsl(0deg 100% 50%) solid;
+  position: fixed;
+  left: 25%;
+  top: 40%;
+  background: hsl(235deg 44% 41% / 87%);
+  padding: 10px;
+  border-radius: 20px;
+  overflow: scroll;
+  box-shadow: 0px 0px 15px 10px #307ca5;
+  z-index: 40;
+}
+.instr::-webkit-scrollbar {
+  display: none;
+}
+table {
+  width: 100%;
+    text-align: center;
+    color: hsl(53deg 60% 48%);
+    font-size: 20px;
+  position: relative;
+  top: 20px;
+  z-index: 3;
+}
+td:nth-child(2n-1) {
+  border-right: 2px hsl(0deg 100% 50%) solid;
+}
+th:nth-child(1) {
+  border-right: 2px hsl(0deg 100% 50%) solid;
+  border-top: 2px hsl(0deg 100% 50%) solid;
+}
+th:nth-child(2) {
+  border-top: 2px hsl(0deg 100% 50%) solid;
+}
+#cloe {
+  position: fixed;
+  z-index: 5;
+}
+/********** Range Input Styles **********/
+/*Range Reset*/
+input[type="range"] {
+   -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 15rem;
+}
+
+/* Removes default focus */
+input[type="range"]:focus {
+  outline: none;
+}
+
+/***** Chrome, Safari, Opera and Edge Chromium styles *****/
+/* slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+   background-color: #053a5f;
+   border-radius: 0.5rem;
+   height: 0.5rem;
+  box-shadow: 0px 0px 10px blue;
+}
+
+/* slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+    appearance: none;
+    margin-top: -12px;
+    background-color: hsl(355deg 97% 26% / 0%);
+    height: 10px;
+    width: 10px;
+    height: 17px;
+    width: 17px;
+    position: relative;
+    top: 8px;
+    width: 16px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px #a31f47;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {   
+  border: 1px solid #053a5f;
+  outline: 3px solid #053a5f;
+  outline-offset: 0.125rem; 
+}
+
+/******** Firefox styles ********/
+/* slider track */
+input[type="range"]::-moz-range-track {
+   background-color: #053a5f;
+   border-radius: 0.5rem;
+   height: 0.5rem;
+}
+
+/* slider thumb */
+input[type="range"]::-moz-range-thumb {
+   border: none; /*Removes extra border that FF applies*/
+   border-radius: 0; /*Removes default border-radius that FF applies*/
+
+   /*custom styles*/
+   background-color: #5cd5eb;
+   height: 2rem;
+   width: 1rem;
+}
+p.__oi {
+  font-size: 25px;
+}
+android-run-on-mobile#__run_app {
+  display: block;
+  position: absolute;
+  top: -35px;
+  font-size: 20px;
+  left: 197px;
+  color: lime;
+  border: 1px lime solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+android-run-on-mobile#__run_web {
+  display: block;
+  position: absolute;
+  top: -35px;
+  font-size: 20px;
+  left: 392px;
+  color: lime;
+  border: 1px lime solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+input[type="range"]:focus::-moz-range-thumb {
+  border: 1px solid #053a5f;
+  outline: 3px solid #053a5f;
+  outline-offset: 0.125rem; 
+}
+.history {
+  position: fixed;
+  width: 60%;
+  height: 70%;
+  top: 50%;
+  background: hsl(240deg 48% 25%);
+  color: hsl(240deg 51% 76%);
+  left: 50%;
+  box-shadow: 0px 0px 30px 10px #7e7ef1;
+  overflow-y: scroll;
+  border-radius: 10px;
+  border: none;
+  z-index: 90;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.history legend {
+  color: hsl(310deg 60% 68%);
+  font-size: 30px;
+  border: 2px hsl(240deg 100% 50%) solid;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: hsl(240deg 100% 50%);
+  box-shadow: 0px 0px 30px 10px #54d946;
+  position: relative;
+  margin: auto;
+}
+.history p {
+  cursor: pointer;
+  border: 2px hsl(238deg 49% 58%) solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+.wrapper {
+  max-width: 50rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tabs {
+  position: relative;
+  margin: 3rem 0;
+  background: hsl(235deg 44% 41% / 0%);
+  height: 14.75rem;
+}
+.tabs::before,
+.tabs::after {
+  content: "";
+  display: table;
+}
+.tabs::after {
+  clear: both;
+}
+.tab {
+  float: left;
+}
+.tab-switch {
+  display: none;
+}
+.tab_html {
+  width: 49px;
+}
+.tab-label {
+/*   position: relative;
+  display: block;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.618em;
+  background: hsl(203deg 44% 41% / 70%);
+  border-right: 0.125rem solid hsl(168deg 76% 36%);
+  color: hsl(0deg 0% 100%);
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+  border-radius: 20px; */
+  position: relative;
+    display: block;
+    line-height: 2.75em;
+    height: 3em;
+    padding: 0 1.618em;
+    /* background: hsl(203deg 44% 41% / 70%); */
+    border-right: 0.125rem solid hsl(168deg 76% 36%);
+    color: hsl(0deg 0% 100%);
+    cursor: pointer;
+    top: 0;
+    transition: all 0.25s;
+    border-radius: 20px;
+}
+.tab-label:hover {
+  top: -0.25rem;
+  transition: top 0.25s;
+}
+.tab-content {
+  height: 55%;
+  width: 100%;
+  overflow: scroll;
+  position: absolute;
+  z-index: 1;
+  top: 2.75em;
+  left: 0;
+  padding: 1.618rem;
+  background: hsl(235deg 44% 41%);
+  color: hsl(0deg 0% 100%);
+  /* border-bottom: 0.25rem solid hsl(204deg 8% 76%); */
+  /* border-radius: 20px; */
+  margin-top: 11px;
+  opacity: 0;
+  transition: all 0.35s;
+}
+.tab-content::-webkit-scrollbar {
+  display: none;
+}
+.tab-switch:checked + .tab-label {
+/*   background: hsl(211deg 45% 36%);
+  color: hsl(11deg 57% 66%);
+  border-bottom: 0;
+  border-right: 0.125rem solid #fff;
+  border-radius: 20px;
+  transition: all 0.35s;
+  z-index: 1;
+  top: -0.0625rem; */
+  /*background: hsl(120deg 65% 33%); */
+    color: hsl(11deg 57% 66%);
+    /* border-bottom: 0; */
+    /* border-right: 0.125rem solid hsl(0deg 0% 100%); */
+    /* border-radius: 20px; */
+    /* transition: all 0.35s; */
+    z-index: 1;
+    filter: drop-shadow(2px -2px 7px hsl(120deg 65% 33%));
+}
+.tab-switch:checked + label + .tab-content {
+  z-index: 2;
+  opacity: 1;
+  transition: all 0.35s;
+}
+#list {
+  margin-top: 41px;
+}
+#cll {
+/*   position: fixed;
+  z-index: 20; */
+/*   border: 3px hsl(238deg 49% 58%) solid;
+  background: hsl(235deg 34% 49%); */
+  border: 3px hsl(238deg 49% 58% / 0%) solid;
+  background: hsl(235deg 34% 49% / 0%);
+  float: right;
+  margin-left: 20px;
+}
+.edl {
+  width: 20px;
+  cursor: pointer;
+}
+#restore, #delete {
+  float: right;
+/*   border: 3px hsl(238deg 49% 58%) solid;
+  background: hsl(235deg 34% 49%); */
+  border: 3px hsl(238deg 49% 58% / 0%) solid;
+  background: hsl(235deg 34% 49% / 0%);
+  margin-bottom: 10px;
+}
+#delete {
+  float: left;
+}
+#clearH {
+/*   float: right;
+  border: 3px hsl(238deg 49% 58%) solid;
+  background: hsl(235deg 34% 49%);*/
+  float: right;
+    border: 3px hsl(238deg 49% 58% / 0%) solid;
+    background: hsl(235deg 34% 49% / 0%);*/
+}
+#restore:hover {
+  cursor: pointer;
+}
+/* details[open] {
+  animation: slide .3s ease-in-out;
+}
+
+@keyframes slide {
+  0%    { opacity: 0; transform:  translate(0, -10px); }
+  100%  { opacity: 1; transform:  translate(0, 0); }
+}
+details[close] {
+  animation: slider .3s ease-in-out;
+}
+
+@keyframes slider {
+  0%    { opacity: 1; transform:  translate(0, 0); }
+  100%  { opacity: 0; transform:  translate(0, -10px); }
+} */
+details{
+  display: block;
+    /* background: hsl(0deg 0% 100%); */
+    width: 100%;
+    /* box-shadow: 0 10px 15px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%); */
+    /* border-radius: 8px; */
+    overflow: hidden;
+    /* margin-bottom: 1.5rem; */
+}
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;} 
+summary {
+   display: block;
+    /* padding: 0.3em 1em 0.3em 0.9em; */
+    /* border-bottom: 1px solid hsl(214deg 32% 91%); */
+    font-size: 1.4em;
+    cursor: pointer;
+    position: relative;
+}
+summary:after {  
+  top: .4em;
+  right: .3em;
+  color: transparent;
+  background: url("down.png") no-repeat 50% 50% / 1em 1em;
+  width: 1em;
+  height: 1em;  
+  content: "";
+  position: absolute;
+  transition: transform .5s;
+}
+details[open] > summary:after {
+  transform: scale(1,-1);
+}
+summary ~ * {
+   padding: 0 1em 10px 1.4em;
+}
+details[open] summary ~ *{ 
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+summary:focus {
+  outline:none;
+/*   box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3); */
+}
+h1 {
+  text-align: center;
+}
+
+android-comparator {
+  color: hsl(0deg 0% 100%);
+  background: hsl(0deg 42% 52%);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.notRec{
+	background-color: black;
+}
+
+.Rec{
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin: auto;
+	border: none;
+	color: lime;
+	background: black;
+  pointer-events: none;
+}
+
+@keyframes pulse{
+	0%{
+		box-shadow: 0px 0px 5px 0px rgb(25 123 25 / 79%);
+	}
+	65%{
+		box-shadow: 0px 0px 5px 13px rgb(28 138 28 / 33%);
+	}
+	90%{
+		box-shadow: 0px 0px 5px 13px rgb(29 139 29 / 40%);
+	}
+}
+.hid * {
+  display: none;
+}
+
+android-console-line {
+  caret-color: hsl(0deg 100% 50%);
+  border: none;
+  outline: none;
+}
+.Help td {
+  border-bottom: 2px hsl(0deg 100% 50%) solid;
+}
+.Help a {
+  color: hsl(207deg 36% 54%);
+}
+undefined {
+  color: hsl(207deg 4% 41%);
+}
+trrue {
+  color: hsl(252deg 74% 69%);
+}
+l1, l2, l3 {
+  font-size: 40px;
+}
+.CodeMirror-vscrollbar {
+  display: none !important;
+}
+android-console fieldset {
+  border: 2px hsl(230deg 59% 56%) solid;
+  box-shadow: 0px 0px 10px #4d63d1;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  z-index: 0;
+}
+
+.cl2 a {
+  color: hsl(190deg 100% 50%);
+  text-shadow: 0px 0px #1aff00;
+  text-decoration: auto;
+}
+/* .cl2 a[target="_blank"]::after {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==");
+  margin: 0 3px 0 5px;
+} */
+body::-webkit-scrollbar {
+  display: none;
+}
+#scrollAndroid {
+  padding: 5px;
+  border: 4px hsl(70deg 11% 33%) solid;
+  border-radius: 20px;
+  background: hsl(70deg 8% 15%);
+  color: hsl(120deg 41% 50%);
+  font-size: 20px;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+.history::-webkit-scrollbar {
+  display: block;
+  width: 19px !important;
+  box-shadow: inset 0px 0px 10px;
+  border-radius: 20px;
+}
+
+/* Track */
+.history::-webkit-scrollbar-track {
+  background: transparent !important; 
+}
+li.__screenshoot.no {
+  pointer-events: none;
+  opacity: 0.2;
+}
+li.__screenshoot_o.no {
+  pointer-events: none;
+  opacity: .2;
+}
+/* Handle */
+.history::-webkit-scrollbar-thumb {
+  background: #888 !important;
+  border-radius: 10px;
+  box-shadow: 0px 0px 18px 0px lime;
+}
+img#looad {
+  position: relative;
+  left: 50%;
+}
+/* Handle on hover */
+.history::-webkit-scrollbar-thumb:hover {
+  background: #555 !important; 
+}
+.__result_se {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  overflow: scroll;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
+
+.__result_se .__dom_res img {
+  width: 61px;
+  height: 61px;
+  position: relative;
+  float: left;
+  left: 5px;
+  object-fit: cover;
+}
+.news {
+  font-size: 30px;
+  color: hsl(195deg 57% 64%);
+  border: 2px hsl(207deg 100% 42%) solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+  backdrop-filter: brightness(0.5);
+  height: auto;
+  text-shadow: 0px 0px 5px #0078d7;
+}
+android-project-create {
+  display: none;
+  width: 447px;
+/*   height: 153px; */
+  height: auto;
+  position: fixed;
+  z-index: 202;
+  background: blue;
+  overflow: scroll;
+  text-align: center;
+  padding: 10px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 20px blue, inset 0px 0px 20px 0px white;
+}
+button#createApl.no {
+  pointer-events: none;
+  opacity: 0.5;
+}
+nameapk {
+  color: white;
+}
+div#icon_preview {
+  position: relative;
+  left: 0px;
+  width: 62px;
+  float: left;
+}
+
+#icon_preview img {
+   width: 56px;
+  height: 56px;
+  background: white;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+div#info_project {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  float: right;
+}
+
+#info_project input {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 360px;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px, inset 0px 0px 12px 3px blue;
+}
+}
+
+input#imageAPK {
+}
+
+android-project-create button {
+  background: transparent;
+  margin-top: 10px;
+  cursor: pointer !important;
+}
+
+button#cancel {
+  float: left;
+  position: relative;
+  margin-left: 85px;
+}
+
+button#createApl {
+  float: right;
+}
+android-win {
+  display: block;
+  width: 400px;
+  height: 100px;
+  position: fixed;
+  background: #3e42c3;
+  z-index: 201;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.CodeMirror-scroll {
+  backdrop-filter: brightness(0);
+}
+::selection {
+  color: hsl(0deg 0% 100%);
+  background: hsl(244deg 100% 50%);
+  text-shadow: none;
+}
+.clearHis {
+  width: 20px;
+  cursor: pointer;
+  filter: drop-shadow(2px -2px 7px hsl(120deg 65% 33%));
+}
+android-text-info {
+  font-size: 25px;
+  position: absolute;
+  margin-top: 10px;
+}
+android-number {
+  filter: drop-shadow(0px 0px 10px black);
+  text-shadow: 0px 0px 10px black;
+}
+.nnew_command {
+  border: 3px lime solid;
+  color: lime;
+  font-size: 25px;
+}
+img.btn_home {
+    width: 70px;
+    position: absolute;
+    top: 82%;
+    left: -45%;
+  filter: opacity(0.5);
+  pointer-events: none;
+}
+img.btn_apps {
+  width: 45px;
+  position: absolute;
+  top: 76%;
+  left: -11%;
+  filter: opacity(0.5);
+  pointer-events: none;
+}
+img.btn_back {
+  position: absolute;
+  width: 48px;
+  top: 66%;
+  left: -20%;
+  filter: opacity(0.5);
+  pointer-events: none;
+}
+img.btn_reload {
+  position: absolute;
+  width: 60px;
+  top: 40%;
+  left: -30%;
+  filter: opacity(0.5);
+  pointer-events: none;
+}
+.__android_after {
+  text-align: center;
+  display: block;
+  position: absolute;
+  width: 0px;
+  overflow: hidden;
+  color: lime;
+  font-size: 25px;
+  left: 50px;
+  background: black;
+  border: 4px hsl(120deg 100% 50%) solid;
+  border-left: none;
+  border-right: none;
+  filter: drop-shadow(2px 4px 6px black);
+  box-shadow: 0px 0px 10px;
+  transition: .1s linear;
+}
+#androidx .__android_after {
+  text-align: center;
+  display: block;
+  position: absolute;
+  width: 0px;
+  overflow: hidden;
+  color: lime;
+  font-size: 25px;
+  right: 40px;
+  background: black;
+  border: 4px hsl(120deg 100% 50%) solid;
+  border-left: none;
+  border-right: none;
+  filter: drop-shadow(2px 4px 6px black);
+  box-shadow: 0px 0px 10px;
+  transition: .1s linear;
+}
+android-news-o {
+  display: block;
+  position: relative;
+  width: 34.5%;
+  margin-left: auto;
+  top: 75%;
+  /* right: 8px; */
+  height: 20%;
+  border-bottom: 2px hsl(120deg 100% 50%) solid;
+  border-right: 2px hsl(120deg 100% 50%) solid;
+  text-align: center;
+  color: lime;
+  word-break: break-all;
+  overflow: scroll;
+  left: 33%;
+}
+img.__screenshoot_o {
+  width: 31px;
+/*   position: absolute; */
+  left: 3px;
+  cursor: pointer;
+/*   top: -6px; */
+/*   bottom: 0%; */
+}
+img.btn_inet {
+  width: 43px;
+  position: absolute;
+  top: 50%;
+  left: -3px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.__android_after.rel {
+  top: 40%;
+}
+span.__android_after.bac {
+  top: 67%;
+}
+span.__android_after.app {
+  top: 74%;
+}
+span.__android_after.hom {
+  top: 83%;
+}
+.__android_after.clo {
+  top: 0px;
+}
+span.__android_after.__rel {
+  top:5%;
+}
+span.__android_after.__inv {
+  top: 15%;
+}
+span.__android_after.__resz {
+  top: 23%;
+}
+.__android_after.rel.show1 {
+  width: 202px;
+}
+span.__android_after.bac.show2 {
+  width: fit-content;
+}
+span.__android_after.app.show3 {
+  width: 300px;
+}
+span.__android_after.hom.show4 {
+  width: 222px;
+}
+.__android_after.clo.show5 {
+  width: 200px;
+}
+span.__android_after.__rel.show6 {
+  width: 200px;
+}
+span.__android_after.__inv.show7 {
+  width: 200px;
+}
+span.__android_after.__resz.show8 {
+  width: 200px;
+}

@@ -1,0 +1,17 @@
+{
+  "background_color": "#1945BC",
+  "theme_color": "#56C2B7",
+  "description": "Learning JavaScript",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "js/andr.png",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ],
+  "id": "/ind/",
+  "name": "RScript",
+  "short_name": "RScript",
+  "start_url": "https://RScript.teleweb.repl.co/www/"
+}
